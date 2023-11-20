@@ -10,6 +10,7 @@ Text files to be read by the program have one string per line.
 * `england-cities,towns.txt`: cities and towns in England ([source 1](https://en.wikipedia.org/wiki/List_of_cities_in_the_United_Kingdom), [source 2](https://en.wikipedia.org/wiki/List_of_towns_in_England))
 * `finland-municipalities.txt`: municipalities in Finland ([source](https://fi.wikipedia.org/wiki/Luettelo_Suomen_kunnista))
 * `germany-cities,towns.txt`: cities and towns in Germany ([source](https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Germany))
+* `usa-cities,towns.txt`: cities and towns in the United States ([source](https://www.britannica.com/topic/list-of-cities-and-towns-in-the-United-States-2023068))
 
 ## Examples
 
@@ -39,3 +40,12 @@ Abenau, Alter, Bad Saulgastromberviechtenden, Bad Sulzbach, Barburg, Blanden, Bo
 
 ### German cities and towns, order 4
 Alten, Bad Breisingen, Bad Neustavsburg-Loccum, Bad Schwarzwalk, Bad Wildau, Bad Wildesheim, Baesweiler am Harz, Bartha, Baumholdegk, Bergenthal, Berlinghausen, Bernach, Beven, Biesenthal-Zelle, Blausterhofen, Bramschengladbeck, Butzbach an der Nordheim, Cochern, Eggendorf, Erken, Geiselhöringen, Gröning, Heilsbiburg an der Unstrut, Herden, Hilpoltsteft, Immenstedt, Kaiserstadt, Lambrechenberg im Tauberg, Laucha an der Teck, Lauterndorf, Meinbach, Metzin, Mittweiler, Mühlheim, Orten, Rhein, Rotten, Schwartau, Seligenhausen, St. Blankenau, Strausberga, Tengermünden, Tirschein, Trossin, Töging am Harz, Waltenkirchen, Weismar, Westerow, Widderne, Zweibrück
+
+### US cities and towns, order 2
+Aikestie, Arto, Aubbstertauk Fal, Belbarlizabyle, Beld Ric Glo, Bideld, Calmax, Chatter, Chippard, Collestiontsmon, Culladvilb, Decons Fainbeva, Durg, Elkhan Dem, Fallebu, Flistaury, Fortinch, Gran, Jand, Keen, Lacklymon, Larly, Lebst Newportington, Lislotood, Mido Bervillo Bent City, Mille, Newa Myrna, Nort Packine, Oxforrinei, Peomi, Pett, Port Lehiams, Pothesburns, Rock, Sach, Sandwersenna, Sangfielle, Sarles, Tuck, Walanton, Weigh, Wenvillejo, Westown, Wesvillynno, Whic, Willin, Winable, Winsforestocottsfie, Woombisterlonfierghtowne, Woorawton Amet
+
+### US cities and towns, order 3
+Anah, Beau, Bonneland, Bryandwick, Carles Laurel, Cedar Rator, Centrop, Colly Chula, Collyn, Coupeloit, De Long Granford, Des Montclairbano Beach, Duranta Bay, Elkhantark, Elkings, Emmith Kington, Goldez, Grancorse, Greesport, Hyde Point City, Keno, Kensas, Kille, La Groton, Lake, Lake Gene, Lake Washine, Laredon, Lock, Lubenville, Mankton, Mant, Mobiles, Needsporthanute, New Kent, New Madridge, Norwood Ridge, Oceanset, Orancord, Orove, Ponta City, Porth Chicagosa, Praibi, Sainton, Simi Valla Wayne, Steubenver, Welluridge, Westeamberton, Windleton, Winneapolinster
+
+### US cities and towns, order 4
+Alexandro, Alhambridgetown, Amherstown, Anada, Atland, Barbara, Bellinsville, Bethesda-Chevy Charlem, Bowlingboro, Cape Coral Gable, College, Corpus Christown, Crook, Cuyahoga Springs, Fort Angeles, Gallade, Gallahoma City, Glen, Golia, Graylingen, Greeneva, Hot Spring, Hyattsboro, Johnson, Kennebunkport Huron, La Grandersonville, Lake, Lake Haute, Maconderson, McPherstow, Medicine, Milbans, New Bernardiner, New Rockfoot, New York, Park, Paul, Port Morganton, Port Worth, Portlanton, Redonia, Rhineland, San Lea, Sand Juntain, South Chicagoula, Talla Walland, Truth Bend, West Morganton, Wilkes-Barristol, Winster
