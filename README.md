@@ -7,8 +7,9 @@ Table of contents:
 
 ## String files
 Text files to be read by the program have one string per line.
-* `england-cities,towns.txt`: names of cities and towns in England ([source 1](https://en.wikipedia.org/wiki/List_of_cities_in_the_United_Kingdom), [source 2](https://en.wikipedia.org/wiki/List_of_towns_in_England))
-* `finland-municipalities.txt`: names of municipalities in Finland ([source](https://fi.wikipedia.org/wiki/Luettelo_Suomen_kunnista))
+* `england-cities,towns.txt`: cities and towns in England ([source 1](https://en.wikipedia.org/wiki/List_of_cities_in_the_United_Kingdom), [source 2](https://en.wikipedia.org/wiki/List_of_towns_in_England))
+* `finland-municipalities.txt`: municipalities in Finland ([source](https://fi.wikipedia.org/wiki/Luettelo_Suomen_kunnista))
+* `germany-cities,towns.txt`: cities and towns in Germany ([source](https://en.wikipedia.org/wiki/List_of_cities_and_towns_in_Germany))
 
 ## Examples
 
@@ -29,3 +30,12 @@ Alavi, Alavukoskinen, Asko, Aurainen, Evijärvia, Getarstula, Hankylä, Hämeenl
 
 ### Finnish municipalities, order 4
 Asikka, Enonkoski Tl, Hanka, Hankaanpää, Harjavaltamo, Huitti, Janakka, Kaari, Kaarianhamina, Kangasalmi, Kanka, Karijärvi, Karkku, Kitti, Kittinen, Kontio, Koski, Kristijärvi, Kurikkala, Lappeenrantaa, Lieksämäki, Luhankaupunki, Maala, Maari, Mustavi, Naantaa, Nivalkosenniemi, Nivalkoski, Parikka, Parkaus, Pieksa, Pihti, Pirkkonummi, Pomarkkila, Pudas, Puolankaanpää, Ristiinankaanpää, Ruokola, Saari, Savitaipalsaarina, Savukoski Tl, Siikala, Sotka, Taipale, Toivakkala, Vaalahti, Vanta, Varkano, Viitasala, Vimpele
+
+### German cities and towns, order 2
+Allgäuselen, Bad Brabrüeld, Buxtensten, Bürz, Daseelinger Oldbachinge, Degk, Ehirg, Emmerg, Erkardholzdorf, Eutrolk, Freusensenhen, Gand, Haingenmünchwanders, Harterstalenburg, Herstaldsberg am Musta, Hohberg, Hombera, Horf, Ilstrüchroder, Innaustenbachhorne, Jückasbachieberg, Kretburgenkacheim, Lauf amünderberg, Linigsma, Maing, Neus, Neußenhagenbachhorf, Nienseld, Nürn, Oberg imer-Schr, Pockendorf, Rock, Rottisigssenburgwetadt, Sangenberg, Scharsdorf, Schingerg, Schlanow, Schnenderbachörligteim, Schtwarschweden, Sprickausenheim, Stad Ber Dürtschwenderl, Staldermar, Steim, Straffenhütz, Velohnaulgteischau, Vierg, Wilin am Mühlassen-Bettenaung, Willen d. Inn, Wunsterdheim Ibburg, Wündorf
+
+### German cities and towns, order 3
+Abenau, Alter, Bad Saulgastromberviechtenden, Bad Sulzbach, Barburg, Blanden, Boxberriedentha, Brauenbach Liebensen, Brauschneverkow, Bruchstädt an der Stein, Bürenalberg, Donau, Ehin, Eislinghausen, Erlebenau, Escheberg, Gold, Helmshofsheim, Hildberg, Kalkau, Kelsteinachengen, Korndorf, Kyllberg, Lauchlüsselegen, Lauen, Leut, Lollfeldern, Ludwitz, Markrankelen, Meingen, Neustenburg, Nossel, Offenheim in der-Olm, Olfeldbecklenber-Beiligenau, Parsewinklagen, Plausetal, Puchauselbronack, Renner, Richenburg, Schlis, Schramburg, Schwelmsheim, Simburg, Teuburg am Triberg, Thal-Heilngriedersbach, Torgen, Walde, Wolkau, Zeilngriedstadt, Zossing
+
+### German cities and towns, order 4
+Alten, Bad Breisingen, Bad Neustavsburg-Loccum, Bad Schwarzwalk, Bad Wildau, Bad Wildesheim, Baesweiler am Harz, Bartha, Baumholdegk, Bergenthal, Berlinghausen, Bernach, Beven, Biesenthal-Zelle, Blausterhofen, Bramschengladbeck, Butzbach an der Nordheim, Cochern, Eggendorf, Erken, Geiselhöringen, Gröning, Heilsbiburg an der Unstrut, Herden, Hilpoltsteft, Immenstedt, Kaiserstadt, Lambrechenberg im Tauberg, Laucha an der Teck, Lauterndorf, Meinbach, Metzin, Mittweiler, Mühlheim, Orten, Rhein, Rotten, Schwartau, Seligenhausen, St. Blankenau, Strausberga, Tengermünden, Tirschein, Trossin, Töging am Harz, Waltenkirchen, Weismar, Westerow, Widderne, Zweibrück

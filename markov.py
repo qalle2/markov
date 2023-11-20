@@ -1,17 +1,8 @@
 # generate random strings based on source data using a character-level Markov
-# chain
+# chain;
+# "order" = how many previous characters affect each new character
 
-import random, re, sys
-
-# file to read original strings from; one per line;
-# see readme for sources of these files
-STRING_FILE = "england-cities,towns.txt"
-#STRING_FILE = "finland-municipalities.txt"
-
-# order of Markov chain (how many previous characters affect each new
-# character); minimum = 1; maximum = length of shortest string in source data,
-# plus one
-MARKOV_ORDER = 3
+import os, random, re, sys
 
 # if 0, print random strings; if 1, print stats on source data
 DEBUG_MODE = 0
@@ -25,33 +16,35 @@ IGNORE_ORIG = 1
 # how many random strings to print (if DEBUG=0)
 RANDOM_COUNT = 50
 
-def get_orig_strings():
-    # generate original strings from file
+def get_orig_strings(filename, order):
+    # generate original strings from file;
+    # order: order of Markov chain
 
-    with open(STRING_FILE, "rt") as handle:
+    with open(filename, "rt") as handle:
         handle.seek(0)
         for line in handle:
             stri = line.rstrip("\n")
-            if len(stri) < MARKOV_ORDER - 1:
+            if len(stri) < order - 1:
                 print(
                     "Warning: skipping original string (too short): " + stri,
                     file=sys.stderr
                 )
-            if re.search(r"^[A-ZÅÄÖa-zåäö &'-]+$", stri) is None:
+            if re.search(r"^[A-ZÅÄÖÜa-zåäößü &'.-]+$", stri) is None:
                 sys.exit("Invalid characters in original string: " + stri)
             yield stri
 
-def get_probs(origStrs):
+def get_probs(origStrs, order):
     # origStrs: original strings (iterable)
+    # order: order of Markov chain
     # return: probabilities (dict, see below)
 
     probs = {}  # {previous_character(s): {character: count, ...}, ...}
 
     for stri in origStrs:
         stri = "_" + stri + "_"  # "_" = start/end
-        for i in range(MARKOV_ORDER, len(stri)):
+        for i in range(order, len(stri)):
             char = stri[i]
-            prev = stri[i-MARKOV_ORDER:i]
+            prev = stri[i-order:i]
             if prev not in probs:
                 probs[prev] = {}
             if char not in probs[prev]:
@@ -81,8 +74,23 @@ def get_random_string(probs):
         prevSubstr = prevSubstr[1:] + char
 
 def main():
-    origStrs = list(get_orig_strings())
-    probs = get_probs(origStrs)
+    if len(sys.argv) != 3:
+        sys.exit(
+            "Argument: FILE ORDER (FILE = file to read strings from, ORDER = "
+            "order of Markov chain (1-5))"
+        )
+    (inputFile, order) = sys.argv[1:]
+    if not os.path.isfile(inputFile):
+        sys.exit("Input file not found.")
+    try:
+        order = int(order)
+        if not 1 <= order <= 5:
+            raise ValueError
+    except ValueError:
+        sys.exit("Order of Markov chain must be 1-5.")
+
+    origStrs = list(get_orig_strings(inputFile, order))
+    probs = get_probs(origStrs, order)
 
     if DEBUG_MODE:
         for prev in sorted(probs):
